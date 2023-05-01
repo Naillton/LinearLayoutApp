@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/linearPrincipal"
+    >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Hello, esse é o titulo como Linear layout"
+        android:textSize="22sp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="subtitulo do layout linear"
+        android:textSize="21sp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/teal_200"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+        android:id="@+id/subLinear"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="216dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+             when an unknown printer took a galley of type and scrambled it to make a type specimen
+             book. It has survived not only five centuries, but also the leap into electronic
+             typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+             release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+             desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BTN"
+            android:layout_marginTop="160dp"
+            android:layout_marginHorizontal="50dp" />
+
+    </LinearLayout>
+</LinearLayout>
